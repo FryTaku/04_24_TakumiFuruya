@@ -1,0 +1,357 @@
+ここから下に記載していく
+/*///////////////////////////////////////////////////////////////////////////////////
+/* wrap */
+
+.wrap{
+    width: 1366px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+/* header */
+
+.header{
+    display: flex;
+}
+
+.logo{
+    margin: 25px;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+    font-size: 21px;
+}
+
+.menu_text{
+    margin: 50px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+/* mainvisual */
+
+.mainvisual{
+    height: 400px;
+    background: url(../img/mainbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.mainvisual_A{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 110px;
+}
+
+.mainvisual_B{
+    color:  white;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+/* ABOUT */
+
+.ABOUT{
+    text-align: center;
+    padding: 60px;
+}
+
+.ABOUT_mainTittle{
+    font-size: 24px;
+    color: #ffd61a;
+}
+
+.ABOUT_subTittle{
+    margin: 30px;
+    font-size: 18px;
+    color: #222222;
+}
+
+.ABOUT_text_A .ABOUT_text_B .ABOUT_text_C .ABOUT_text_D{
+    font-size: 16px;
+    color: #222222;
+}
+
+.ABOUT_text_A{
+    padding: 30px;
+}
+
+.ABOUT_text_B{
+    padding: 20px;
+    line-height: 30px;
+}
+
+.ABOUT_text_C{
+    padding: 20px;
+}
+
+.ABOUT_text_D{
+    padding: 20px;
+    line-height: 30px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+/* CONTENT */
+
+.CONTENT{
+    opacity: 0;
+    display: flex;
+}
+
+/* .CONTENT_fade{
+    opacity: 1;
+} */
+
+.CONTENT p img{
+    width: 100%;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+/* NEWS_Tittle */
+
+.NEWS_Tittle{
+    opacity: 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.NEWS_mainTittle{
+    font-size: 24px;
+    color: #ffd61a;
+}
+
+.NEWS_subTittle{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    color: #222222;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+/* NEWS */
+
+.NEWS {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+} 
+
+.NEWS_sub {
+    margin-left: 15px;
+    margin-right: 15px;
+} 
+
+.NEWS_data{
+    text-align: left;
+    font-size: 16px;
+    color: #222222;
+    margin-top: 30px; 
+    margin-bottom: 24px;
+}
+
+.NEWS_text{
+    font-size: 14px;
+    color: #222222;
+    line-height: 30px;
+    width: 300px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+/* MORE */
+
+ .MORE{
+     margin: 60px;
+     text-align: center;
+     font-size: 18px;
+ }
+
+ .MORE_text{
+    display: inline-block;
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    background-color: #ffd61a;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  .MORE_text:hover {
+    opacity: 0.6;
+  }
+
+/*///////////////////////////////////////////////////////////////////////////////////
+/* ACCESS */
+
+.MAP{
+    opacity: 0;
+    background-color: #fafafa;
+}
+
+.MAP_main{
+    text-align: center;
+    margin: 30px;
+}
+
+.MAP_access{
+    font-weight: bold;
+    font-size: 24px;
+    padding-top : 60px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+.MAP_info{
+    font-size: 18px;
+    padding-top : 30px;
+    padding-bottom : 60px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+.MAP_sub{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.MAP_sub table td{
+    padding : 20px 30px;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+/* CONTACT */
+
+.CONTACT{
+    text-align: center;
+}
+
+.CONTACT_mainTittle{
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.CONTACT_subTittle{
+    color: #222222;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.CONTACT_text_A{
+    color: #222222;
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+.CONTACT_text_B{
+    color: #222222;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+/* FORM */
+
+.FORM{
+    font-size: 16px;
+}
+
+.FORM_name{
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+.FORM_trigger{
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+.FORM_motive{
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+.FORM_details{
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+dt{
+    width: 200px;
+}
+
+dd{
+    width: 400px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+/* SUBMIT */
+
+.SUBMIT{
+    margin: 30px;
+    margin-bottom: 110px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.SUBMIT_text{
+   display: inline-block;
+   padding: 0.6em 2em;
+   margin: 0 0 1em;
+   background-color: #ffd61a;
+   color: #fff;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+ }
+ .SUBMIT_text:hover {
+   opacity: 0.6;
+ }
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+/* HEADER */
+
+.datebox_GP{
+    text-align: center;
+    font-size: 16px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+/* COPYRIGHTS */
+
+.COPYRIGHTS{
+    background-color: #707070;
+    height: 76px;
+}
+
+.COPYRIGHTS_text{
+    line-height:76px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #fafafa;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+.TOP {
+    display: flex;
+    justify-content: center;
+    background: #0bc;
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+  }
+  body {
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Meiryo,"メイリオ",Helvetica,Sans-Serif;
+  }
